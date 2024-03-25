@@ -14,7 +14,7 @@ namespace Menu
         {
             if (menuFood == null || menuFood.Count == 0)
             {
-                throw new ArgumentException("Коллекция меню List<string> menuItems - пустая.\n Коллекция == 0 || ==null.");
+                throw new ArgumentException("Коллекция меню List<string> menuItems - пустая.\n Коллекция == 0 || == null.");
             }
 
             else if (countFoodPage <= 0)
